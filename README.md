@@ -1,2 +1,1 @@
-# taskweek1
-# place in local repo
+# tuesday_repo
