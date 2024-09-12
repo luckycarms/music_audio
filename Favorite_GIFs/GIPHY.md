@@ -26,10 +26,7 @@ Below are a small sample of my favorite GIFs
 
 ![Gif](https://media.giphy.com/media/UDwUHzUGu6jdsWY5pC/giphy.gif?cid=790b7611se7w1cktcshqae31lsik983txq0h75ztlwkqq7zw&ep=v1_gifs_search&rid=giphy.gif&ct=g) 
 
-![Gif](https://media.giphy.com/media/UO5elnTqo4vSg/giphy.gif?cid=82a1493btue8kg7kv7ni4p4sg5zfudfn0vh9z6h4vixyzh13&ep=v1_gifs_trending&rid=giphy.gif&ct=g
-https://media.giphy.com/media/8b9Xax6L7qtAkAimGm/giphy.gif)
  
-
 ![Gif](https://media.giphy.com/media/9uoYC7cjcU6w8/giphy.gif) 
 
 ![Gif](https://media.giphy.com/media/g9582DNuQppxC/giphy.gif) 
