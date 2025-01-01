@@ -46,6 +46,8 @@ class AlienInvasion:
         # initializing Alien
         self.aliens = pygame.sprite.Group()
 
+        self._create_fleet()
+
     def run_game(self):
         """Start the main loop for the game."""
         # for loop nested in while loop is the event loop
@@ -115,9 +117,18 @@ class AlienInvasion:
 
     def _create_fleet(self):
         """Creates fleet of Aliens. """
-        # Make aliens
+        # Create an alien and keep addling aliens until there's no room left.
+        #Spacing between aliens is one alien width
         alien = Alien(self)
-        self.aliens.add(alien)
+        alien_width = alien.rect.width
+
+        current_x = alien_width
+        while current_x < (self.settings.screen_widthm- 2 * alien_width):
+            new_alien = Alien(self)
+            new_alien.x = current_x
+            new_alien.rect.x = current_x
+            self.aliens.add(alien)
+            current_x +=2 * alien_width
 
 
     def _update_screen(self):
