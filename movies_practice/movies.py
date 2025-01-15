@@ -8,7 +8,7 @@ import matplotlib
 plt.style.use('ggplot')
 from matplotlib.pyplot import figure
 
-%matplotlib inline
+
 matplotlib.rcParams['figure.figsize'] = (12,8)
 
 pd.options.mode.chained_assignment = None
