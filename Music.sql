@@ -1,0 +1,4 @@
+-- SQLite
+SELECT Timestamp, Age, Primarystreamingservice, Hoursperday, Whileworking, Instrumentalist, Composer, Favgenre, Exploratory, Foreignlanguages, BPM, `Frequency[Classical]`, `Frequency[Country]`, `Frequency[EDM]`, `Frequency[Folk]`, `Frequency[Gospel]`, `Frequency[Hiphop]`, `Frequency[Jazz]`, `Frequency[Kpop]`, `Frequency[Latin]`, `Frequency[Lofi]`, `Frequency[Metal]`, `Frequency[Pop]`, `Frequency[R&B]`, `Frequency[Rap]`, `Frequency[Rock]`, `Frequency[Videogamemusic]`, Anxiety, Depression, Insomnia, OCD, Musiceffects, Permissions
+FROM mxmh_survey_results
+WHERE Primarystreamingservice = 'Spotify';
